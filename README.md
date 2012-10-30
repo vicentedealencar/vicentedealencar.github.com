@@ -1,9 +1,9 @@
 #VicenteDeAlencar.com.br
 
 ##Linguagens
-- [C#](http://en.wikipedia.org/wiki/C_Sharp_(programming_language))
+- [C#](http://en.wikipedia.org/wiki/C_Sharp_(programming_language)
 - [SQL](http://en.wikipedia.org/wiki/SQL)
-- [C](http://en.wikipedia.org/wiki/C_(programming_language))
+- [C](http://en.wikipedia.org/wiki/C_(programming_language)
 - [PowerShell](http://en.wikipedia.org/wiki/Windows_PowerShell)
 - [VBA](http://en.wikipedia.org/wiki/Visual_Basic_for_Applications)
 - [Java](http://java.com/pt_BR/)
