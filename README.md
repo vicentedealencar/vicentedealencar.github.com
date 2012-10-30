@@ -1,31 +1,31 @@
-#vicentedealencar.com.br
+#VicenteDeAlencar.com.br
 
 ##Linguagens
-- C#
-- SQL
-- C
-- PowerShell
-- VBA
-- Java
-- CSS
-- JavaScript
-- TypeScript
-- Less
+- [C#](http://en.wikipedia.org/wiki/C_Sharp_(programming_language))
+- [SQL](http://en.wikipedia.org/wiki/SQL)
+- [C](http://en.wikipedia.org/wiki/C_(programming_language))
+- [PowerShell](http://en.wikipedia.org/wiki/Windows_PowerShell)
+- [VBA](http://en.wikipedia.org/wiki/Visual_Basic_for_Applications)
+- [Java](http://java.com/pt_BR/)
+- [CSS](http://en.wikipedia.org/wiki/Cascading_Style_Sheets)
+- [JavaScript](http://en.wikipedia.org/wiki/JavaScript)
+- [TypeScript](http://www.typescriptlang.org/)
+- [Less](http://lesscss.org/)
 
 ##Frameworks
-- Asp.Net MVC
-- Entity Framework
-- jQuery
-- Node.js
-- XUnit
-- SignalR
+- [Asp.Net MVC](http://www.asp.net/mvc)
+- [Entity Framework](http://entityframework.codeplex.com/)
+- [jQuery](http://JQuery.com)
+- [Node.js](http://nodejs.org/)
+- [XUnit](http://xunit.codeplex.com/)
+- [SignalR](http://signalr.net/)
 
 ##Carreira
-- TecGraf
-- Lemon Bank
-- Microsoft
-- Metheora
-- DojoApps
+- [TecGraf](http://www.tecgraf.puc-rio.br/)
+- [Lemon Bank](http://www.lemonbank.com.br/)
+- [Microsoft](http://microsoft.com)
+- [Metheora](http://www.metheora.com)
+- [DojoApps](http://dojoapps.com.br)
 
 ##Futebol Americano
 - Títulos
@@ -42,16 +42,15 @@
 - Gravatar
 
 ##Portifólio
-- EuAcho.com
-- CataDomínio.com.br
-- SeuBilhete.com
-- Partiu Praia
-- Metheora.com
--Crush Me
+- [EuAcho.com](http://www.euacho.com)
+- [CataDomínio.com.br](http://catadominio.com.br)
+- [SeuBilhete.com](http://www.seubilhete.com)
+- [Partiu Praia](https://itunes.apple.com/br/app/partiupraia/id511217370?ls=1&mt=8)
+- [Metheora.com](http://www.metheora.com)
+- [Crush Me](https://apps.facebook.com/crushmeapp/)
 
 ##Sobre
-- Puc
-- Skills
-- GitHub
-- LinkedIn
-- Blog
+- [Puc](http://www.puc-rio.br)
+- [GitHub](http://github.com/vicentedealencar)
+- [LinkedIn](http://br.linkedin.com/pub/vicente-de-alencar/24/932/495)
+- [Blog](http://vicentedealencar.com.br/blog)
