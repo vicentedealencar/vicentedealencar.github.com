@@ -1,8 +1,12 @@
+#title {
+    margin: 50px 0;
+}
+
 /**** Isotope Filtering ****/
 
 .isotope-item {
   z-index: 2;
-  width: 22%;
+  width: 200px;
   background-color: #93d2ff;
   margin: 2px;
 }

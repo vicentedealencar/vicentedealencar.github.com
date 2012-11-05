@@ -1,6 +1,7 @@
-$(function(){      
-    var $container = $('.isotope');
+$(function () {
+    $("#title").fitText();
 
+    var $container = $('.isotope');
     $container.isotope({
         itemSelector: '.isotope-item'
     });
