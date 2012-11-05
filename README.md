@@ -50,7 +50,9 @@
 - [Crush Me](https://apps.facebook.com/crushmeapp/)
 
 ##Sobre
-- [Puc](http://www.puc-rio.br)
 - [GitHub](http://github.com/vicentedealencar)
+- [Facebook](http://facebook.com/vicentedealencar)
+- [Twitter](http://twitter.com/vicentealencar)
+- [Google Plus](https://plus.google.com/113567939482133549016/?rel=me)
 - [LinkedIn](http://br.linkedin.com/pub/vicente-de-alencar/24/932/495)
 - [Blog](http://vicentedealencar.com.br/blog)
