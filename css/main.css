@@ -2,6 +2,9 @@
 
 .isotope-item {
   z-index: 2;
+  width: 22%;
+  background-color: #93d2ff;
+  margin: 2px;
 }
 
 .isotope-hidden.isotope-item {
