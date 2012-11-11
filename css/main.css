@@ -1,6 +1,17 @@
 body {
   background-color: #333;
-  color: #fff;
+  color: #eee;
+}
+
+.nav {
+  background-color: #000;
+}
+
+.nav > li > a {
+  color: #eee;
+}
+.nav > li > a:hover {
+  color: #333;
 }
 
 #title {
