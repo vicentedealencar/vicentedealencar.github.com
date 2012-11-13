@@ -51,6 +51,7 @@
 
 ##Sobre
 - [GitHub](http://github.com/vicentedealencar)
+- [Careers 2.0](http://careers.stackoverflow.com/vicentedealencar)
 - [Facebook](http://facebook.com/vicentedealencar)
 - [Twitter](http://twitter.com/vicentealencar)
 - [Google Plus](https://plus.google.com/113567939482133549016/?rel=me)
