@@ -48,6 +48,7 @@
 - [Partiu Praia](https://itunes.apple.com/br/app/partiupraia/id511217370?ls=1&mt=8)
 - [Metheora.com](http://www.metheora.com)
 - [Crush Me](https://apps.facebook.com/crushmeapp/)
+- [Canvas Grid](http://vicentedealencar.com.br/canvas-grid/)
 
 ##Sobre
 - [GitHub](http://github.com/vicentedealencar)
