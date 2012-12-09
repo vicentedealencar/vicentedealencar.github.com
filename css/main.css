@@ -7,11 +7,18 @@ body {
   background-color: #000;
 }
 
-.nav > li > a {
+.nav > li > a, 
+a {
   color: #eee;
+  text-decoration: underline;
 }
+
 .nav > li > a:hover {
   color: #333;
+}
+
+a:hover {
+  color: #eee;
 }
 
 textarea {
