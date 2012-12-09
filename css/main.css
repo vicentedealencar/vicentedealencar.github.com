@@ -3,6 +3,16 @@ body {
   color: #eee;
 }
 
+a {
+  color: #eee;
+  text-decoration: underline;
+}
+
+a:hover {
+  color: #eee;
+  font-weight: bold;
+}
+
 .nav {
   background-color: #000;
 }
