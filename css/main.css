@@ -1,0 +1,64 @@
+body {
+  background-color: #333;
+  color: #eee;
+}
+
+.nav {
+  background-color: #000;
+}
+
+.nav > li > a, 
+a {
+  color: #eee;
+  text-decoration: underline;
+}
+
+.nav > li > a:hover {
+  color: #333;
+}
+
+a:hover {
+  color: #eee;
+}
+
+textarea {
+  resize:vertical;
+}
+
+textarea,
+input[type="text"],
+input[type="submit"]{
+  width: 170px;
+}
+
+#title {
+  margin: 50px 0;
+}
+
+.ling {
+  background-color: #1BA1E2;
+}
+
+.framework {
+  background-color: #F09609;
+}
+
+.carr {
+  background-color: #A200FF;
+}
+
+.fa {
+  background-color: #8CBF26;
+}
+
+.cont {
+  background-color: #00ABA9;
+}
+
+.port {
+  background-color: #FF0097;
+}
+
+.sobre {
+  background-color: #E51400;
+}
