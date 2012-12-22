@@ -12,4 +12,8 @@ $(function () {
         $container.isotope({ filter: selector });
         return false;
     });
+
+    analytics.initialize({
+    'Google Analytics' : 'UA-35941179-1',
+    });
 });
