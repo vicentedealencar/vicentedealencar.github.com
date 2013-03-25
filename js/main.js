@@ -13,7 +13,22 @@ $(function () {
         return false;
     });
 
+    var contatoForm = $('#contato-form');
+    contatoForm.on('submit', function (e) {
+        $.post('https://zapier.com/hooks/catch/n/2PAB/',
+        {
+            subject: contatoForm.find('[name=subject]').val(),
+            body: contatoForm.find('[name=body]').val()
+        })
+        .complete( function (data) {
+            alert('Obrigado!');
+        });
+
+        e.preventDefault();
+        return false;
+    });
+
     analytics.initialize({
-    'Google Analytics' : 'UA-35941179-1',
+    'Google Analytics' : 'UA-35941179-1'
     });
 });
