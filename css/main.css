@@ -1,38 +1,43 @@
 body {
   background-color: #333;
   color: #eee;
+  text-align: center;
+  font-family: "Segoe UI Light","Helvetica Neue","Segoe UI","Segoe WP",sans-serif;
+  text-rendering: optimizelegibility;
+  text-transform: lowercase;
+}
+
+hr {
+  margin: 25px 0;
+  border: 0;
+  border-top: 1px solid #eee;
+  border-bottom: 1px solid #fff;
+}
+
+img {
+  padding: 25px;
+  height: 200px;
+  width: 200px;
 }
 
 .nav {
-  background-color: #000;
-}
-
-.nav > li > a, 
-a {
+  font-size: 22px;
+  padding: 25px;
   color: #eee;
   text-decoration: underline;
 }
 
-.nav > li > a:hover {
-  color: #333;
-}
+.nav:hover {
+  /* default text color to the animation's first color */
+  color: #f55c3d;
+  -webkit-animation: colors 57s linear infinite;
+  -moz-animation: colors 57s linear infinite;
+  animation: colors 57s linear infinite; }
 
-a:hover {
-  color: #eee;
-}
-
-textarea {
-  resize:vertical;
-}
-
-textarea,
-input[type="text"],
-input[type="submit"]{
-  width: 170px;
-}
-
-.btn {
-  width: 184px;
+@media (max-width: 520px) {
+  .nav {
+    display: block;
+  }
 }
 
 #title {
