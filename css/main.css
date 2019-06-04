@@ -1,4 +1,5 @@
 body {
+  margin: 0;
   background-color: #333;
   color: #eee;
   text-align: center;
@@ -15,33 +16,66 @@ hr {
 }
 
 img {
-  padding: 25px;
+  margin: 25px;
   height: 200px;
   width: 200px;
+  border-radius: 100px;
+}
+
+.container {
+  height: calc(100vh - 75px);
 }
 
 .nav {
   font-size: 22px;
-  padding: 25px;
+  padding: 10px 20px;
   color: #eee;
   text-decoration: underline;
 }
 
 .nav:hover {
-  /* default text color to the animation's first color */
   color: #f55c3d;
   -webkit-animation: colors 57s linear infinite;
   -moz-animation: colors 57s linear infinite;
-  animation: colors 57s linear infinite; }
+  animation: colors 57s linear infinite; 
+}
 
-@media (max-width: 520px) {
+@media (max-width: 319px) {
   .nav {
     display: block;
   }
 }
 
+.nav.github:hover {
+  color: #00ABA9;
+}
+
+.nav.facebook:hover {
+  color: #3d5cf5;
+}
+
+.nav.twitter:hover {
+  color: #1BA1E2;
+}
+
+.nav.linkedin:hover {
+  color: #993df5;
+}
+
 #title {
-  margin: 50px 0;
+  margin: 0;
+}
+
+footer {
+  height: 75px;
+  background-color: #eee2;
+}
+
+footer p {
+  border-top: 2px solid #eee;
+  color: #8CBF26;
+  margin: 0;
+  padding: 25px;
 }
 
 .ling {
