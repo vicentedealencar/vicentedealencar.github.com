@@ -1,0 +1,11 @@
+{
+  "name": "common",
+  "version": "0.1.0",
+  "main": "index.js",
+  "author": "Vicente de Alencar",
+  "license": "MIT",
+	"dependencies": {
+    "import-jsx": "^2.0.0",
+		"react": "^16.8.6"
+  }
+}
