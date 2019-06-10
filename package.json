@@ -1,0 +1,33 @@
+{
+  "private": true,
+  "workspaces": {
+    "nohoist": [
+      "**"
+    ],
+    "packages": [
+      "packages/*"
+    ]
+  },
+  "scripts": {
+    "start": "open index.html",
+    "start:cli": "yarn workspace vicentedealencar start",
+    "pretty": "prettier --write \"./**/*.js\"",
+    "nuke": "rimraf **/node_modules"
+  },
+  "lint-staged": {
+    "*.js": [
+      "yarn pretty",
+      "git add"
+    ]
+  },
+  "devDependencies": {
+    "husky": "^2.4.0",
+    "lint-staged": "^8.2.0",
+    "prettier": "^1.18.0"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
+  }
+}
