@@ -9,7 +9,7 @@
     ]
   },
   "scripts": {
-    "start": "open index.html",
+    "start": "yarn workspace gh-pages dev",
     "start:cli": "yarn workspace vicentedealencar start",
     "pretty": "prettier --write \"./**/*.js\"",
     "nuke": "rimraf **/node_modules"

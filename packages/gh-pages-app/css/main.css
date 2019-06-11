@@ -1,0 +1,107 @@
+body {
+  margin: 0;
+  background-color: #333;
+  color: #eee;
+  text-align: center;
+  font-family: "Segoe UI Light","Helvetica Neue","Segoe UI","Segoe WP",sans-serif;
+  text-rendering: optimizelegibility;
+  text-transform: lowercase;
+}
+
+hr {
+  margin: 25px 0;
+  border: 0;
+  border-top: 1px solid #eee;
+  border-bottom: 1px solid #fff;
+}
+
+img {
+  margin: 25px;
+  height: 200px;
+  width: 200px;
+  border-radius: 100px;
+}
+
+.container {
+  height: calc(100vh - 75px);
+}
+
+.nav {
+  font-size: 22px;
+  padding: 10px 20px;
+  color: #eee;
+  text-decoration: underline;
+}
+
+.nav:hover {
+  color: #f55c3d;
+  -webkit-animation: colors 57s linear infinite;
+  -moz-animation: colors 57s linear infinite;
+  animation: colors 57s linear infinite; 
+}
+
+@media (max-width: 319px) {
+  .nav {
+    display: block;
+  }
+}
+
+.nav.github:hover {
+  color: #00ABA9;
+}
+
+.nav.facebook:hover {
+  color: #3d5cf5;
+}
+
+.nav.twitter:hover {
+  color: #1BA1E2;
+}
+
+.nav.linkedin:hover {
+  color: #993df5;
+}
+
+#title {
+  margin: 0;
+}
+
+footer {
+  height: 75px;
+  background-color: #eee2;
+}
+
+footer p {
+  border-top: 2px solid #eee;
+  color: #8CBF26;
+  margin: 0;
+  padding: 25px;
+}
+
+.ling {
+  background-color: #1BA1E2;
+}
+
+.framework {
+  background-color: #F09609;
+}
+
+.carr {
+  background-color: #A200FF;
+}
+
+.fa {
+  background-color: #8CBF26;
+}
+
+.cont {
+  background-color: #00ABA9;
+}
+
+.port {
+  background-color: #FF0097;
+}
+
+.sobre {
+  background-color: #E51400;
+}
