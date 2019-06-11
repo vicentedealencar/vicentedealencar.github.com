@@ -1,17 +1,47 @@
 import Head from 'next/head'
 // import Link from 'next/link'
-// import '../css/main.css'
+
+const author = 'Vicente de Alencar'
+const authorNames = author.split(' ')
+const firstAndLastName = [authorNames[0], authorNames[authorNames.length - 1]]
+
+const keywords = [
+  'Programming',
+  'Developer',
+  'web',
+  'app',
+  'cli',
+  'JavaScript',
+  'React',
+  'Redux',
+  'Docker',
+  'Graphql',
+  '.NET',
+  'C#',
+].concat(firstAndLastName)
+
+const linksMe = [
+  'https://plus.google.com/113567939482133549016/?rel=me',
+  'http://twitter.com/vicentealencar',
+  'http://facebook.com/vicentedealencar',
+  'http://github.com/vicentedealencar',
+  'http://br.linkedin.com/pub/vicente-de-alencar/24/932/495',
+  'http://careers.stackoverflow.com/vicentedealencar',
+]
 
 export default () => (
-  // <div>
-  //   Hello World.{' '}
   //   <Link href='/about' as={process.env.BACKEND_URL + '/about'}>
   //     <a>About</a>
   //   </Link>
-  // </div>
   <>
     <Head>
-      <title>Vicente de Alencar</title>
+      <title>{author}</title>
+      <meta name="author" content={author} />
+      <meta name="keywords" content={keywords} />
+      {/* <meta name="description" content={author} /> */}
+      {linksMe.map(x => (
+        <link rel="me" type="text/html" href={x} />
+      ))}
     </Head>
     <div className="container">
       <h1 id="title">Vicente de Alencar</h1>
