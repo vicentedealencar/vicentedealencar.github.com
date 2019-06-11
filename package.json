@@ -12,7 +12,7 @@
     "start": "yarn workspace gh-pages dev",
     "start:cli": "yarn workspace vicentedealencar start",
     "pretty": "prettier --write \"./**/*.js\"",
-    "deploy": "rimraf packages/gh-pages-app/out packages/gh-pages-app/node_modules/.cache && yarn workspace gh-pages build && yarn workspace gh-pages export && echo '' >> packages/gh-pages-app/out/.nojekyll && echo 'vicentedealencar.com.br' >> ./packages/gh-pages-app/out/CNAME && git add packages/gh-pages-app/out/ && git commit -m \"Deploy Next.js to gh-pages\" && git subtree push --prefix packages/gh-pages-app/out origin master",
+    "deploy": "rimraf packages/gh-pages-app/out packages/gh-pages-app/node_modules/.cache && yarn workspace gh-pages build && yarn workspace gh-pages export && echo '' >> packages/gh-pages-app/out/.nojekyll && echo 'vicentedealencar.com.br' >> ./packages/gh-pages-app/out/CNAME && gh-pages -d packages/gh-pages-app/out/ -b master",
     "nuke": "rimraf **/node_modules"
   },
   "lint-staged": {
@@ -21,7 +21,9 @@
       "git add"
     ]
   },
+  "dependencies": {},
   "devDependencies": {
+    "gh-pages": "^2.0.1",
     "husky": "^2.4.0",
     "lint-staged": "^8.2.0",
     "prettier": "^1.18.0",
