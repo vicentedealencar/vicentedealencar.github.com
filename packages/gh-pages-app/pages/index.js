@@ -1,3 +1,4 @@
+import Head from 'next/head'
 // import Link from 'next/link'
 // import '../css/main.css'
 
@@ -9,6 +10,9 @@ export default () => (
   //   </Link>
   // </div>
   <>
+    <Head>
+      <title>Vicente de Alencar</title>
+    </Head>
     <div className="container">
       <h1 id="title">Vicente de Alencar</h1>
 

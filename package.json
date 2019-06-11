@@ -9,10 +9,10 @@
     ]
   },
   "scripts": {
-    "start": "yarn workspace gh-pages dev",
+    "start": "yarn workspace gh-pages-app dev",
     "start:cli": "yarn workspace vicentedealencar start",
     "pretty": "prettier --write \"./**/*.js\"",
-    "deploy": "rimraf packages/gh-pages-app/out packages/gh-pages-app/node_modules/.cache && yarn workspace gh-pages build && yarn workspace gh-pages export && echo '' >> packages/gh-pages-app/out/.nojekyll && echo 'vicentedealencar.com.br' >> ./packages/gh-pages-app/out/CNAME && gh-pages -d packages/gh-pages-app/out/ -b master",
+    "deploy": "rimraf packages/gh-pages-app/out packages/gh-pages-app/node_modules/.cache && yarn workspace gh-pages-app build && yarn workspace gh-pages-app export && echo '' >> packages/gh-pages-app/out/.nojekyll && echo 'vicentedealencar.com.br' >> ./packages/gh-pages-app/out/CNAME && gh-pages -d packages/gh-pages-app/out/ -b master",
     "nuke": "rimraf **/node_modules"
   },
   "lint-staged": {
